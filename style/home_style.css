@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(#eee, #abccfd);
+    background: -webkit-linear-gradient(top, #eee, #abccfd);
+    background: -ms-linear-gradient(top, #eee,#abccfd);
+    background: -moz-linear-gradient(top, #eee, #abccfd);
+    background: -o-linear-gradient(top, #eee, #abccfd);
+}
+h1 {
+    color: black;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.button {
+    padding: 25px 40px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: yellow;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #ffcc00;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.button:hover {
+    background-color: #ffcc00;
+}
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
