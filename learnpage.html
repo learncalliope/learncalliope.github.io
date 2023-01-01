@@ -1,0 +1,278 @@
+<html>
+    <head><link rel = "stylesheet" href = "learnstyle.css">
+        <title>Learn</title></head>
+    <body>
+        <h2 style="text-align:center">Learn Calliope Mini Rev2</h2>
+        <p> The Calliope mini REV2 also has an integrated flash memory.
+            Up to 25 individual programs can be saved on the Calliope mini and used at any time - without having to use a smartphone or computer.
+        We divided the board in four categories like sensors, input/output, expansion, system. Learn more in this page.</p>
+        <!--Input and Output parts-->
+        <h3 style="text-align:left"> Input/Output </h3>
+        <div class = "row">
+            <div class = "column">
+                <img src = "D:\uos\project\image\svgtopng\ledicon.png" style="width:25%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class = "column">
+                <img src = "D:\uos\project\image\svgtopng\rgbicon.png" style="width:25%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+            </div>
+            <div class = "column">
+                <img src = "D:\uos\project\image\svgtopng\speakericon.png" style="width:25%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+            </div>
+            <div class = "column">
+                <img src = "D:\uos\project\image\svgtopng\knobicon.png" style="width:25%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+            <div class = "column">
+                <img src = "D:\uos\project\image\svgtopng\pinicon.png" style="width:25%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+            </div>
+        </div>
+<!--Change Image here-->
+        <div id = "myModal" class = "modal">
+            <span class = "close cursor" onclick = "closeModal()">&times;</span>
+            <div class = "modal-content">
+                <div class = "mySlides">
+                    <div class = "numbertext">1 / 5</div>
+                    <img src = "D:\uos\project\image\led55.png" style="width:100%">
+                </div>
+                <div class = "mySlides">
+                    <div class = "numbertext">2 / 5</div>
+                    <img src = "D:\uos\project\image\rgb.png" style="width:100%">
+                </div>
+                <div class = "mySlides">
+                    <div class = "numbertext">3 / 5</div>
+                    <img src = "D:\uos\project\image\speaker.png" style="width:100%">
+                </div>
+                <div class = "mySlides">
+                    <div class = "numbertext">4 / 5</div>
+                    <img src = "D:\uos\project\image\knob.png" style="width:100%">
+                </div>
+                <div class = "mySlides">
+                    <div class = "numbertext">5 / 5</div>
+                    <img src = "D:\uos\project\image\touch.png" style="width:100%">
+                </div>
+                <a class = "prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class = "next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class = "caption-container">
+                    <p id="caption"></p>
+                </div>
+<!--Change Image here-->
+                <div class = "column">
+                    <img class = "demo cursor" src = "D:\uos\project\image\led55.png" style="width:100%" onclick="currentSlide(1)" alt="5x5 LED Matrix">
+                </div>
+                <div class = "column">
+                    <img class = "demo cursor" src = "D:\uos\project\image\rgb.png" style="width:100%" onclick="currentSlide(2)" alt="RGB LED">
+                </div>
+                <div class = "column">
+                    <img class = "demo cursor" src = "D:\uos\project\image\speaker.png" style="width:100%" onclick="currentSlide(3)" alt="Speaker">
+                </div>
+                <div class = "column">
+                    <img class = "demo cursor" src = "D:\uos\project\image\knob.png" style="width:100%" onclick="currentSlide(4)" alt="Knob/Buttons">
+                </div>
+                <div class = "column">
+                    <img class = "demo cursor" src = "D:\uos\project\image\touch.png" style="width:100%" onclick="currentSlide(5)" alt="Touch Pin">
+                </div>
+            </div>
+        </div>
+
+ <!--Sensors parts-->
+ <h3 style="text-align:left"> Sensors </h3>
+ <div class = "row">
+     <div class = "column">
+         <img src = "D:\uos\project\image\svgtopng\position1.png" style="width:25%" onclick="openModal1();currentSlide1(1)" class="hover-shadow cursor">
+     </div>
+     <div class = "column">
+         <img src = "D:\uos\project\image\svgtopng\light1.png" style="width:25%" onclick="openModal1();currentSlide1(2)" class="hover-shadow cursor">
+     </div>
+     <div class = "column">
+         <img src = "D:\uos\project\image\svgtopng\temperature1.png" style="width:25%" onclick="openModal1();currentSlide1(3)" class="hover-shadow cursor">
+     </div>
+     <div class = "column">
+         <img src = "D:\uos\project\image\svgtopng\volume1.png" style="width:25%" onclick="openModal1();currentSlide1(4)" class="hover-shadow cursor">
+     </div>
+     <div class = "column">
+         <img src = "D:\uos\project\image\svgtopng\compass1.png" style="width:25%" onclick="openModal1();currentSlide1(5)" class="hover-shadow cursor">
+     </div>
+     <div class = "column">
+        <img src = "D:\uos\project\image\svgtopng\wireless1.png" style="width:25%" onclick="openModal1();currentSlide1(6)" class="hover-shadow cursor">
+    </div>
+    <div class = "column">
+        <img src = "D:\uos\project\image\svgtopng\bluetooth1.png" style="width:25%" onclick="openModal1();currentSlide1(7)" class="hover-shadow cursor">
+    </div>
+ </div>
+<!--Change Image here-->
+ <div id = "myModal1" class = "modal">
+     <span class = "close cursor" onclick = "closeModal1()">&times;</span>
+     <div class = "modal-content">
+         <div class = "mySlides1">
+             <div class = "numbertext">1 / 7</div>
+             <img src = "D:\uos\project\image\position.png" style="width:100%">
+         </div>
+         <div class = "mySlides1">
+             <div class = "numbertext">2 / 7</div>
+             <img src = "D:\uos\project\image\light.png" style="width:100%">
+         </div>
+         <div class = "mySlides1">
+             <div class = "numbertext">3 / 7</div>
+             <img src = "D:\uos\project\image\temperature.png" style="width:100%">
+         </div>
+         <div class = "mySlides1">
+             <div class = "numbertext">4 / 7</div>
+             <img src = "D:\uos\project\image\volume.png" style="width:100%">
+         </div>
+         <div class = "mySlides1">
+             <div class = "numbertext">5 / 7</div>
+             <img src = "D:\uos\project\image\compass.png" style="width:100%">
+         </div>
+         <div class = "mySlides1">
+            <div class = "numbertext">6 / 7</div>
+            <img src = "D:\uos\project\image\wireless.png" style="width:100%">
+        </div>
+        <div class = "mySlides1">
+            <div class = "numbertext">7 / 7</div>
+            <img src = "D:\uos\project\image\bluetooth.png" style="width:100%">
+        </div>
+         <a class = "prev" onclick="plusSlides1(-1)">&#10094;</a>
+         <a class = "next" onclick="plusSlides1(1)">&#10095;</a>
+
+         <div class = "caption-container">
+             <p id="caption"></p>
+         </div>
+<!--Change Image here-->
+         <div class = "column">
+             <img class = "demo cursor" src = "D:\uos\project\image\position.png" style="width:100%" onclick="currentSlide1(1)" alt="Position Sensor">
+         </div>
+         <div class = "column">
+             <img class = "demo cursor" src = "D:\uos\project\image\light.png" style="width:100%" onclick="currentSlide1(2)" alt="Light Sensor">
+         </div>
+         <div class = "column">
+             <img class = "demo cursor" src = "D:\uos\project\image\temperature.png" style="width:100%" onclick="currentSlide1(3)" alt="Temperature Sensor">
+         </div>
+         <div class = "column">
+             <img class = "demo cursor" src = "D:\uos\project\image\volume.png" style="width:100%" onclick="currentSlide1(4)" alt="Volume Sensor">
+         </div>
+         <div class = "column">
+             <img class = "demo cursor" src = "D:\uos\project\image\compass.png" style="width:100%" onclick="currentSlide1(5)" alt="compass">
+         </div>
+         <div class = "column">
+            <img class = "demo cursor" src = "D:\uos\project\image\wireless.png" style="width:100%" onclick="currentSlide1(6)" alt="wireless">
+        </div>
+        <div class = "column">
+            <img class = "demo cursor" src = "D:\uos\project\image\bluetooth.png" style="width:100%" onclick="currentSlide1(7)" alt="Bluetooth">
+        </div>
+     </div>
+ </div>
+
+ <!--Expansion-->
+ <h3 style="text-align:left"> Expansion </h3>
+ <div class = "row">
+     <div class = "column">
+         <img src = "D:\uos\project\image\svgtopng\grove1.png" style="width:25%" onclick="openModal2();currentSlide2(1)" class="hover-shadow cursor">
+     </div>
+     <div class = "column">
+         <img src = "D:\uos\project\image\svgtopng\motor1.png" style="width:25%" onclick="openModal2();currentSlide2(2)" class="hover-shadow cursor">
+     </div>
+ </div>
+<!--Change Image here-->
+ <div id = "myModal2" class = "modal">
+     <span class = "close cursor" onclick = "closeModal2()">&times;</span>
+     <div class = "modal-content">
+         <div class = "mySlides2">
+             <div class = "numbertext">1 / 2</div>
+             <img src = "D:\uos\project\image\grove.png" style="width:100%">
+         </div>
+         <div class = "mySlides2">
+             <div class = "numbertext">2 / 2</div>
+             <img src = "D:\uos\project\image\motor.png" style="width:100%">
+         </div>
+        
+         <a class = "prev" onclick="plusSlides2(-1)">&#10094;</a>
+         <a class = "next" onclick="plusSlides2(1)">&#10095;</a>
+
+         <div class = "caption-container">
+             <p id="caption"></p>
+         </div>
+<!--Change Image here-->
+         <div class = "column">
+             <img class = "demo cursor" src = "D:\uos\project\image\grove.png" style="width:100%" onclick="currentSlide2(1)" alt="Grove Adapter">
+         </div>
+         <div class = "column">
+             <img class = "demo cursor" src = "D:\uos\project\image\motor.png" style="width:100%" onclick="currentSlide2(2)" alt="Motor Pins">
+         </div>
+     </div>
+ </div>
+
+ <!--System code-->
+ <h3 style="text-align:left"> System </h3>
+ <div class = "row">
+     <div class = "column">
+         <img src = "D:\uos\project\image\svgtopng\battery1.png" style="width:25%" onclick="openModal3();currentSlide3(1)" class="hover-shadow cursor">
+     </div>
+     <div class = "column">
+         <img src = "D:\uos\project\image\svgtopng\usb1.png" style="width:25%" onclick="openModal3();currentSlide3(2)" class="hover-shadow cursor">
+     </div>
+     <div class = "column">
+         <img src = "D:\uos\project\image\svgtopng\processor1.png" style="width:25%" onclick="openModal3();currentSlide3(3)" class="hover-shadow cursor">
+     </div>
+     <div class = "column">
+         <img src = "D:\uos\project\image\svgtopng\statusled1.png" style="width:25%" onclick="openModal3();currentSlide3(4)" class="hover-shadow cursor">
+     </div>
+     <div class = "column">
+         <img src = "D:\uos\project\image\svgtopng\reset1.png" style="width:25%" onclick="openModal3();currentSlide3(5)" class="hover-shadow cursor">
+     </div>
+ </div>
+<!--Change Image here-->
+ <div id = "myModal3" class = "modal">
+     <span class = "close cursor" onclick = "closeModal3()">&times;</span>
+     <div class = "modal-content">
+         <div class = "mySlides3">
+             <div class = "numbertext">1 / 5</div>
+             <img src = "D:\uos\project\image\battery.png" style="width:100%">
+         </div>
+         <div class = "mySlides3">
+             <div class = "numbertext">2 / 5</div>
+             <img src = "D:\uos\project\image\usb.png" style="width:100%">
+         </div>
+         <div class = "mySlides3">
+             <div class = "numbertext">3 / 5</div>
+             <img src = "D:\uos\project\image\processor.png" style="width:100%">
+         </div>
+         <div class = "mySlides3">
+             <div class = "numbertext">4 / 5</div>
+             <img src = "D:\uos\project\image\statusled.png" style="width:100%">
+         </div>
+         <div class = "mySlides3">
+             <div class = "numbertext">5 / 5</div>
+             <img src = "D:\uos\project\image\reset.png" style="width:100%">
+         </div>
+
+         <a class = "prev" onclick="plusSlides3(-1)">&#10094;</a>
+         <a class = "next" onclick="plusSlides3(1)">&#10095;</a>
+
+         <div class = "caption-container">
+             <p id="caption"></p>
+         </div>
+<!--Change Image here-->
+         <div class = "column">
+             <img class = "demo cursor" src = "D:\uos\project\image\battery.png" style="width:100%" onclick="currentSlide3(1)" alt="Battery Connector">
+         </div>
+         <div class = "column">
+             <img class = "demo cursor" src = "D:\uos\project\image\usb.png" style="width:100%" onclick="currentSlide3(2)" alt="USB Connector">
+         </div>
+         <div class = "column">
+             <img class = "demo cursor" src = "D:\uos\project\image\processor.png" style="width:100%" onclick="currentSlide3(3)" alt="Processor">
+         </div>
+         <div class = "column">
+             <img class = "demo cursor" src = "D:\uos\project\image\statusled.png" style="width:100%" onclick="currentSlide3(4)" alt="Status LED">
+         </div>
+         <div class = "column">
+             <img class = "demo cursor" src = "D:\uos\project\image\reset.png" style="width:100%" onclick="currentSlide3(5)" alt="Reset Button">
+         </div>
+     </div>
+ </div>
+ <div>
+    <button class="button"><a href="home.html"> Home </a></button>
+    <button class="button"><a href="play.html"> Play </a></button>
+</div>
+<script src= "learnmain.js"></script>
+    </body>
+</html>
